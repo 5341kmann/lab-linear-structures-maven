@@ -88,7 +88,7 @@ public class ArrayBasedStack<T> implements Stack<T> {
   @Override
   public void push(T val) throws Exception {
     this.put(val);
-  } // push(T)
+  } // push(T)>
 
   @Override
   public T pop() throws Exception {

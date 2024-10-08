@@ -80,7 +80,7 @@ public class ArrayBasedQueue<T> implements Queue<T> {
     T result = this.values[this.front];
     this.values[this.front++] = null;
     // We're removing an element, so decrement the size
-    --this.size;
+    // --this.size;
     // And we're done
     return result;
   } // get(T)

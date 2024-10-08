@@ -31,7 +31,11 @@ public class ArrayBasedQueueExperiment {
     expt.peek();
     expt.get();
     expt.get();
-
+    // expt.put("a");
+    // expt.put("b");
+    // expt.get();
+    // expt.put("c");
+    // expt.get();
     // We've put and get the same number of elements, it
     // should be empty
     expt.isEmpty();
